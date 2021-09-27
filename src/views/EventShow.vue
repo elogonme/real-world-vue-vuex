@@ -35,7 +35,7 @@ export default {
     this.fetchEvent(this.id)
   },
   methods: {
-    ...mapActions('event', ['fetchEvent ']),
+    ...mapActions('event', ['fetchEvent']),
   },
   computed: mapState({
     event: (state) => state.event.event,
